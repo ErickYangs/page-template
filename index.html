@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2042881_6d50uj53am3.css">
+  <meta name="description" content="A Fully Ethereum-equivalent Universal Layer2 Scaling Solution." />
+  <meta name="keywords" content="Goshen, Goshen Network, Layer2, Optimistic Rollup, RISC-V" />
+  <meta property="og:url" content="https://goshen.network" />
+  <meta property="og:image" content="https://testnet-alpha.goshen.network/goshen_600px.png" />
+  <meta property="og:title" content="Goshen Network" />
+  <meta property="og:description" content="A Fully Ethereum-equivalent Universal Layer2 Scaling Solution." />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:url" content="https://goshen.network" />
+  <meta property="twitter:image" content="https://testnet-alpha.goshen.network/goshen_600px.png" />
+  <meta property="twitter:title" content="Goshen Network" />
+  <meta property="twitter:description" content="A Fully Ethereum-equivalent Universal Layer2 Scaling Solution." />
+  <title>Goshen Network</title>
+  <script>
+    window.global = window;
+  </script>
+  <script type="module">
+    import process from "process";
+    import { Buffer } from "buffer";
+    import EventEmitter from "events";
+
+    window.Buffer = Buffer;
+    window.process = process;
+    window.EventEmitter = EventEmitter;
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

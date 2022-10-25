@@ -1,0 +1,50 @@
+{
+    "list": [
+        {
+            "t_key": "home",
+            "link": "/",
+            "inner": true
+        },
+        {
+            "t_key": "bridge",
+            "link": "https://bridge.goshen.network",
+            "inner": true
+        },
+        {
+            "t_key": "developers",
+            "link": "",
+            "children": [
+                {
+                    "t_key": "white_paper",
+                    "link": "https://testnet-alpha.goshen.network/goshen_white_paper.pdf"
+                },
+                {
+                    "t_key": "explorer",
+                    "link": "https://explorer-testnet.goshen.network"
+                },
+                {
+                    "t_key": "documentation",
+                    "link": "https://goshen.gitbook.io/goshen" 
+                }
+            ]
+        },
+        {
+            "t_key": "community",
+            "link": "",
+            "children": [
+                {
+                    "t_key": "discord",
+                    "link": "https://discord.gg/yZeArHW9mQ"
+                },
+                {
+                    "t_key": "twitter",
+                    "link": "https://twitter.com/goshen_network"
+                },
+                {
+                    "t_key": "blog",
+                    "link": "https://medium.com/@goshen"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "goshen-landing-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:test": "vite --host --mode test",
+    "build:main": "vite build --mode main",
+    "build:test": "vite build --mode test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ethereumjs/tx": "^3.5.1",
+    "@fingerprintjs/fingerprintjs": "^3.3.3",
+    "@vueuse/core": "^9.0.0",
+    "axios": "^0.27.2",
+    "bignumber.js": "^9.0.2",
+    "buffer": "^6.0.3",
+    "dayjs": "^1.11.2",
+    "element-plus": "^2.2.2",
+    "events": "^3.3.0",
+    "popmotion": "^11.0.3",
+    "process": "^0.11.10",
+    "sanitize.css": "^13.0.0",
+    "sha256": "^0.2.0",
+    "tua-body-scroll-lock": "^1.2.1",
+    "vue": "^3.2.25",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.14",
+    "vue3-clipboard": "^1.0.0",
+    "vuex": "^4.0.2",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@rollup/plugin-inject": "^4.0.4",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "sass": "^1.49.9",
+    "stream-browserify": "^3.0.0",
+    "unplugin-auto-import": "^0.8.2",
+    "unplugin-vue-components": "^0.19.5",
+    "vite": "^2.8.0",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
