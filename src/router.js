@@ -7,11 +7,6 @@ const routes = [
     component: () => import("./view/HomePages/HomeLay.vue"),
   },
   {
-    path: "/faucet",
-    name: "Faucet",
-    component: () => import("./view/FaucetPage/FaucetIndex.vue"),
-  },
-  {
     path: "/:pathMatch(.*)",
     redirect: "/",
   },
@@ -23,9 +18,3 @@ const router = createRouter({
 });
 
 export default router;
-
- // {
-                //     "t_key": "faucet",
-                //     "link": "/faucet",
-                //     "inner": true
-                // }
